@@ -1,7 +1,6 @@
-
 # Ols Theme Documentation
 
-## Welcome
+## Welcome!
 This is the documentation for ols-theme, a customisable Jekyll theme developed for [OLS](https://openlifesci.org/). It provides a consistent and professional look for all websites connected to the organisation.
 
 ## Getting Started
@@ -69,7 +68,7 @@ Bug reports and pull requests are welcome on [GitHub](https://github.com/open-li
 
 ## Support and Feedback
 
-If you encounter any issues or have suggestions for improvements, please feel free to reach out to us at [team@we-are-ols.org]. We value your feedback and are here to assist you.
+If you encounter any issues or have suggestions for improvements, please feel free to reach out to us at [team@we-are-ols.org](team@we-are-ols.org). We value your feedback and are here to assist you.
 
 Thank you!
 
