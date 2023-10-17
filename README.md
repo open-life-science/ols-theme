@@ -1,7 +1,7 @@
 # OLS Theme Documentation
 
 ## Welcome!
-This is the documentation for ols-theme, a customisable Jekyll theme developed for [OLS](https://openlifesci.org/). It provides a consistent and professional look for all websites connected to the organisation.
+This is the documentation for ols-theme, a customisable Jekyll theme developed for [OLS](https://we-are-ols.org/). It provides a consistent and professional look for all websites connected to the organisation.
 
 ## Getting Started
 
