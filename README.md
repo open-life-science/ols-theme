@@ -59,7 +59,8 @@ Configuration file for the theme settings.
 
 
 ## Customisation
-   Modify the theme files, layouts, includes, and assets to match your organisation's branding and requirements.
+ 
+It is possible to modify the theme files, layouts, includes, and assets to match your organisation's branding and requirements.
 
 ## Contributing
 
