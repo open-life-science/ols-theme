@@ -22,22 +22,25 @@ theme: ols-theme
 ```
 
 3. Execute:
-
+```
    $ bundle
+```
 
 Or install it yourself as:
-
+```
     $ gem install ols-theme
-    
+```    
 
 ### Development
 
 To see if the installation has been done correctly:
 
-1. Start a Jekyll server with 
+1. Start a Jekyll server with
+```
     $ bundle exec jekyll serve
+```
 
-2. Preview the site by opening your browser at `http://localhost:4000`
+3. Preview the site by opening your browser at `http://localhost:4000`
 
 ## Theme Structure
 
