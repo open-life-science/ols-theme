@@ -22,6 +22,7 @@ theme: ols-theme
 ```
 
 3. Execute:
+
    $ bundle
 
 Or install it yourself as:
