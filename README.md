@@ -9,7 +9,7 @@ To use `ols-theme` in your Jekyll project, follow these steps:
 
 ### Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+1. Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
 gem "ols-theme"
