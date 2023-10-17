@@ -42,24 +42,24 @@ To see if the installation has been done correctly:
 ## Theme Structure
 - `_includes`: Reusable components used within the layouts.
  
-- *_layouts*:
+- `_layouts`:
 Contains the HTML layouts used for different pages.
 
-- *assets*:
+- `assets`:
 Contains CSS, JavaScript, and other static files.
 
-- *_config.yml*:
+- `_config.yml`:
 Configuration file for the theme settings.
 
-- *_sass*
-- *.gitignore*
-- *CODE_OF_CONDUCT.md*
-- *Gemfile*
-- *Gemfile.lock*
-- *LICENSE.txt*
-- *README.md*
-- *code-of-conduct.md*
-- *ols-theme.gemspec*
+- `_sass`
+- `.gitignore`
+- `CODE_OF_CONDUCT.md`
+- `Gemfile`
+- `Gemfile.lock`
+- `LICENSE.txt`
+- `README.md`
+- `code-of-conduct.md`
+- `ols-theme.gemspec`
 
 
 ## Customisation
