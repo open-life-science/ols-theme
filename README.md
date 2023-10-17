@@ -32,7 +32,10 @@ Or install it yourself as:
 
 ### Development
 
-To see if the installation has been done correctly, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server to enable you preview the site.
+To see if the installation has been done correctly:
+
+1. Start a Jekyll server with 
+
 
 
 ## Theme Structure
