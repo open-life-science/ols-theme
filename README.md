@@ -36,8 +36,7 @@ To see if the installation has been done correctly, run `bundle exec jekyll serv
 
 
 ## Theme Structure
-- *_includes*:
- Includes reusable components used within the layouts.
+- `_includes`: Reusable components used within the layouts.
  
 - *_layouts*:
 Contains the HTML layouts used for different pages.
