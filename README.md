@@ -15,15 +15,14 @@ To use `ols-theme` in your Jekyll project, follow these steps:
 gem "ols-theme"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+2. Add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: ols-theme
 ```
 
-And then execute:
-
-    $ bundle
+3. Execute:
+   $ bundle
 
 Or install it yourself as:
 
@@ -35,8 +34,9 @@ Or install it yourself as:
 To see if the installation has been done correctly:
 
 1. Start a Jekyll server with 
+    $ bundle exec jekyll serve
 
-
+2. Preview the site by opening your browser at `http://localhost:4000`
 
 ## Theme Structure
 - `_includes`: Reusable components used within the layouts.
