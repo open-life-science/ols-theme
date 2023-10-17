@@ -40,31 +40,18 @@ To see if the installation has been done correctly:
 2. Preview the site by opening your browser at `http://localhost:4000`
 
 ## Theme Structure
-- `_includes`: Reusable components used within the layouts.
- 
-- `_layouts`:
-Contains the HTML layouts used for different pages.
 
-- `assets`:
-Contains CSS, JavaScript, and other static files.
-
-- `_config.yml`:
-Configuration file for the theme settings.
-
+- `_includes`: Reusable components used within the layouts. 
+- `_layouts`: HTML layouts used for different pages.
+- `assets`: CSS, JavaScript, and other static files.
+- `_config.yml`: Configuration file for the theme settings.
 - `_sass`: Sass files for styling customisation.
-
-- `.gitignore`: Specifies which files should be ignored by version control.
-
+- `.gitignore`: Files should be ignored by version control.
 - `CODE_OF_CONDUCT.md`: Guidelines for community code of conduct.
-
-- `Gemfile`: File specifying Ruby dependencies for the theme.
-
+- `Gemfile`: Ruby dependencies for the theme.
 - `Gemfile.lock`: Lock file ensuring consistent installation of gems.
-
 - `README.md`: Instructions and information about the theme.
-
 - `code-of-conduct.md`: Community code of conduct.
-
 - `ols-theme.gemspec`: Gem specification file for RubyGems packaging.
 
 
