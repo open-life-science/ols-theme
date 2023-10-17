@@ -1,12 +1,14 @@
-# ols-theme
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+# Ols Theme Documentation
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+## Welcome
+This is the documentation for ols-theme, a customisable Jekyll theme developed for [OLS](https://openlifesci.org/). It provides a consistent and professional look for all websites connected to the organisation.
 
-TODO: Delete this and the text above, and describe your gem
+## Getting Started
 
-## Installation
+To use `ols-theme` in your Jekyll project, follow these steps:
+
+### Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
@@ -27,24 +29,52 @@ And then execute:
 Or install it yourself as:
 
     $ gem install ols-theme
+    
 
-## Usage
+### Development
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+To see if the installation has been done correctly, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server to enable you preview the site.
+
+
+## Theme Structure
+- *_includes*:
+ Includes reusable components used within the layouts.
+ 
+- *_layouts*:
+Contains the HTML layouts used for different pages.
+
+- *assets*:
+Contains CSS, JavaScript, and other static files.
+
+- *_config.yml*:
+Configuration file for the theme settings.
+
+- *_sass*
+- *.gitignore*
+- *CODE_OF_CONDUCT.md*
+- *Gemfile*
+- *Gemfile.lock*
+- *LICENSE.txt*
+- *README.md*
+- *code-of-conduct.md*
+- *ols-theme.gemspec*
+
+
+## Customisation
+   Modify the theme files, layouts, includes, and assets to match your organisation's branding and requirements.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ols-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on [GitHub](https://github.com/open-life-science/ols-jekyll-theme). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Code of conduct](https://github.com/open-life-science/ols-jekyll-theme/blob/main/CODE_OF_CONDUCT.md).
 
-## Development
+## Support and Feedback
 
-To set up your environment to develop this theme, run `bundle install`.
+If you encounter any issues or have suggestions for improvements, please feel free to reach out to us at [team@we-are-ols.org]. We value your feedback and are here to assist you.
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `ols-theme.gemspec` accordingly.
+Thank you!
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The content of this website are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0).
+
+The code behind the infrastructure is licensed under the [MIT License](LICENSE.txt).
