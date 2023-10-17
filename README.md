@@ -71,9 +71,3 @@ Bug reports and pull requests are welcome on [GitHub](https://github.com/open-li
 If you encounter any issues or have suggestions for improvements, please feel free to reach out to us at [team@we-are-ols.org](team@we-are-ols.org). We value your feedback and are here to assist you.
 
 Thank you!
-
-## License
-
-The content of this website are licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0).
-
-The code behind the infrastructure is licensed under the [MIT License](LICENSE.txt).
