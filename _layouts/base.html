@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ page.title }} | {{ site.title }}</title>
         {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-        <link href="{{ site.baseurl }}/css/custom.css" rel="stylesheet" type="text/css">
+        <link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
         <!--Below is the schema annotation for blogposts-->
         {% if page.layout == 'post' %}
@@ -58,7 +58,7 @@
         <script src="/js/scripts.js"></script>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         {% if page.layout == 'posts' %}
-          <script src="/js/posts.js"></script>
+          <script src="/assets/js/posts.js"></script>
         {% endif %}
       </body>
 </html>
