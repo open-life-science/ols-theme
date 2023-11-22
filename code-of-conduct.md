@@ -8,4 +8,4 @@ photos:
   url: https://flic.kr/p/23EGxgc
 ---
 
-{% include CODE_OF_CONDUCT.md %}
+{% include code_of_conduct.md %}
