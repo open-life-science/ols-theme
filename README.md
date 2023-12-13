@@ -1,50 +1,73 @@
-# ols-theme
+# OLS Theme Documentation
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+## Welcome!
+This is the documentation for ols-theme, a customisable Jekyll theme developed for [OLS](https://we-are-ols.org/). It provides a consistent and professional look for all websites connected to the organisation.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+## Getting Started
 
-TODO: Delete this and the text above, and describe your gem
+To use `ols-theme` in your Jekyll project, follow these steps:
 
-## Installation
+### Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+1. Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
 gem "ols-theme"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+2. Add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: ols-theme
 ```
 
-And then execute:
-
-    $ bundle
+3. Execute:
+```
+   $ bundle
+```
 
 Or install it yourself as:
-
+```
     $ gem install ols-theme
+```    
 
-## Usage
+### Development
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+To see if the installation has been done correctly:
+
+1. Start a Jekyll server with
+```
+    $ bundle exec jekyll serve
+```
+
+3. Preview the site by opening your browser at `http://localhost:4000`
+
+## Theme Structure
+
+- `_includes`: Reusable components used within the layouts. 
+- `_layouts`: HTML layouts used for different pages.
+- `assets`: CSS, JavaScript, and other static files.
+- `_config.yml`: Configuration file for the theme settings.
+- `_sass`: Sass files for styling customisation.
+- `.gitignore`: Files should be ignored by version control.
+- `CODE_OF_CONDUCT.md`: Guidelines for community code of conduct.
+- `Gemfile`: Ruby dependencies for the theme.
+- `Gemfile.lock`: Lock file ensuring consistent installation of gems.
+- `README.md`: Instructions and information about the theme.
+- `code-of-conduct.md`: Community code of conduct.
+- `ols-theme.gemspec`: Gem specification file for RubyGems packaging.
+
+
+## Customisation
+ 
+It is possible to modify the theme files, layouts, includes, and assets to match your organisation's branding and requirements.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ols-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on [GitHub](https://github.com/open-life-science/ols-jekyll-theme). This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Code of conduct](https://github.com/open-life-science/ols-jekyll-theme/blob/main/CODE_OF_CONDUCT.md).
 
-## Development
+## Support and Feedback
 
-To set up your environment to develop this theme, run `bundle install`.
+If you encounter any issues or have suggestions for improvements, please feel free to reach out to us at [team@we-are-ols.org](team@we-are-ols.org). We value your feedback and are here to assist you.
 
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `ols-theme.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Thank you!
